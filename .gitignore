@@ -8,3 +8,6 @@
 /captures
 .externalNativeBuild
 .cxx
+/test-app/release/baselineProfiles/0/test-app-release.dm
+/test-app/release/baselineProfiles/1/test-app-release.dm
+/test-app/release/output-metadata.json

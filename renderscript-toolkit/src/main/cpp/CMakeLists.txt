@@ -114,5 +114,9 @@ target_link_libraries(# Specifies the target library.
                       # included in the NDK.
                       ${log-lib} )
 
+set_target_properties(renderscript-toolkit PROPERTIES
+    LINK_FLAGS "-Wl,-z,max-page-size=16384"
+)
+
 include(AndroidNdkModules)
 android_ndk_import_module_cpufeatures()
